@@ -5,7 +5,7 @@ from datetime import datetime
 # Define paths
 RAW_PATH = os.path.join("data", "raw", "retail_orders.json")
 PROCESSED_DIR = os.path.join("data", "processed")
-PROCESSED_PATH = os.path.join(PROCESSED_DIR, "retail_orders_clean.csv")
+PROCESSED_PATH = os.path.join(PROCESSED_DIR, "retail_orders_clean.json")
 
 # Ensure processed directory exists
 os.makedirs(PROCESSED_DIR, exist_ok=True)
