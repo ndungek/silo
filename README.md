@@ -25,10 +25,7 @@ This project is ideal for showcasing data pipeline design, API integration, and 
 
 ## ⚙️ Setup & Installation
 ### Clone the repository:
-`git clone https://github.com/your-username/project-silo.git`
-`cd project-silo`
-### Install dependencies:
-`pip install -r requirements.txt`
+`git clone https://github.com/your-username/silo.git`
 
 ### Run ETL scripts:
 
@@ -36,15 +33,3 @@ This project is ideal for showcasing data pipeline design, API integration, and 
 `python etl/transform.py`
 `python etl/load.py`
 
-## 💡 Key Features
-🛠️ Modular Python ETL scripts
-
-🌐 API extraction using requests
-
-🧼 Pandas-based transformation logic
-
-📤 XLSX export for dashboard tools
-
-📊 Tableau dashboard for business insights
-
-🔒 Secure handling of API keys with dotenv
