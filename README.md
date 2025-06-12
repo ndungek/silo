@@ -3,25 +3,7 @@ A complete end-to-end ETL (Extract, Transform, Load) pipeline built to simulate 
 
 This project is ideal for showcasing data pipeline design, API integration, and dashboarding skills in a clean, modular structure.
 
-## 🗂️ Directory Structure
-graphql
-Copy
-Edit
-project-silo/
-├── data/
-│   ├── raw/               # Raw JSON data from Mockaroo
-│   ├── processed/         # Cleaned intermediate JSON
-│   └── final/             # Final XLSX file for Tableau
-├── etl/
-│   ├── extract.py         # Script to extract API data
-│   ├── transform.py       # Script to clean and transform data
-│   └── load.py            # Script to export final dataset
-├── dashboards/
-│   └── retail_dashboard.twb  # Tableau workbook file
-├── .env                   # API keys (excluded via .gitignore)
-├── .gitignore
-├── requirements.txt       # Python dependencies
-└── README.md   
+<pre lang="markdown"> ## 🗂️ Project Directory Structure ``` ├── data/ │ ├── raw/ │ ├── processed/ │ └── final/ ├── etl/ │ ├── extract.py │ ├── transform.py │ └── load.py ├── dashboards/ │ └── retail_dashboard.pbix ├── .env ├── .gitignore ├── requirements.txt └── README.md ``` </pre>
 
 
 ## ⚙️ Setup & Installation
