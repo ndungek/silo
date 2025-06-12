@@ -3,8 +3,25 @@ A complete end-to-end ETL (Extract, Transform, Load) pipeline built to simulate 
 
 This project is ideal for showcasing data pipeline design, API integration, and dashboarding skills in a clean, modular structure.
 
- ## 🗂️ Project Directory Structure 
- ``` ├── data/ │ ├── raw/ │ ├── processed/ │ └── final/ ├── etl/ │ ├── extract.py │ ├── transform.py │ └── load.py ├── dashboards/ │ └── retail_dashboard.pbix ├── .env ├── .gitignore ├── requirements.txt └── README.md ``` 
+## 🗂️ Directory Structure
+
+```
+├── data/
+│   ├── raw/               
+│   ├── processed/        
+│   └── final/             
+├── etl/
+│   ├── extract.py        
+│   ├── transform.py       
+│   └── load.py            
+├── dashboards/
+│   └── retail_dashboard.pbix 
+├── .env                   
+├── .gitignore
+├── requirements.txt       
+└── README.md   
+```
+
 
 ## ⚙️ Setup & Installation
 ### Clone the repository:
