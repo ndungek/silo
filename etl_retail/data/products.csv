@@ -1,0 +1,11 @@
+sku,product_name,category,supplier,unit_cost,unit_price,reorder_threshold
+CEM001,20kg Cement Bag,Building Materials,SUPP_A,450,500,20
+PLY200,2x1 Timber (2m),Timber,SUPP_A,300,350,15
+NLS123,1/2 inch Nail Box,Fasteners,SUPP_B,120,150,50
+ELX12,Light Bulb 60W,Electrical,SUPP_C,80,120,30
+PAI500,Premium Paint 5L,Paints,SUPP_D,1200,1500,10
+TOOL01,Hammer 16oz,Tools,SUPP_E,400,550,10
+GLV010,Construction Gloves,Safety,SUPP_B,50,80,40
+PLM001,Plumbing PVC Pipe 1”,Plumbing,SUPP_C,200,280,25
+BRU100,Hard Bristle Brush,Decor,SUPP_D,180,250,15
+TIN012,Thin Nails Bundle,Fasteners,SUPP_B,90,120,70
