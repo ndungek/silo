@@ -1,0 +1,11 @@
+# config/hardware.yaml
+
+
+paths:
+
+  pos_clean: "warehouse/processed/clean_pos_data.csv"
+
+etl:
+  process_name: "hardware_pos_etl"
+  pos_path:  "./data/pos_exports"
+  db: "postgresql://postgres:postgres@localhost:5432/silo"
