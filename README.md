@@ -155,6 +155,7 @@ Exported as daily CSV files under:
 ---
 
 ## Project Structure
+```
 SILO/
 ├── dashboard/
 ├── data/
@@ -180,7 +181,7 @@ SILO/
 ├── .gitignore
 ├── requirements.txt
 └── README.md
-
+```
 ## Author
 
 **Maureen Kitang'a**  
