@@ -156,41 +156,33 @@ Exported as daily CSV files under:
 
 ## Project Structure
 SILO/
-├── dashboard/                     # Power BI / BI artifacts (visual analytics)
-│
-├── data/                          # Warehouse landing folders (optional external data)
-│
-├── etl_retail/                    # Retail-specific ETL domain
-│   ├── alerts/                    # Data quality / business rule alert scripts
-│   │   └── run_alerts.py          # Example alert trigger
-│   │
+├── dashboard/
+├── data/
+├── etl_retail/
+│   ├── alerts/
+│   │   └── run_alerts.py
 │   ├── config/
-│   │   └── hardware.yaml          # ETL configuration (DB, paths, credentials)
-│   │
-│   ├── data/                      # Raw + processed operational data
-│   │   ├── products.csv           # Product master used when generating POS files
-│   │   └── pos_exports/           # Daily exported POS transactions (CSV)
-│   │
-│   ├── etl_hardware/              # Hardware store pipeline logic
-│   │   ├── generate_pos_data.py   # Synthetic retail POS generator (daily files)
-│   │   ├── pipeline.py            # Orchestrated incremental ETL load
-│   │   ├── load_dim_date.py       # Populate date dimension table
-│   │   ├── load_dim_employees.py  # Populate employee dimension table
-│   │   └── load_dim_products.py   # Populate product dimension table
-│
-├── warehouse/                     # Warehouse DDL & schemas
-│   └── schema.sql                 # Star schema: facts, dimensions, metadata tables
-│
-├── extract.py                     # Base extract orchestrator for generic data sources
-├── load.py                        # Generic data warehouse loader utilities
-├── transform.py                   # Cleaning, standardization & enrichment utilities
-│
-├── .gitignore                     # Ignore sensitive & local-only artifacts
-├── requirements.txt               # Python dependency lock
-└── README.md                      # You are here ✅
+│   │   └── hardware.yaml
+│   ├── data/
+│   │   ├── products.csv
+│   │   └── pos_exports/
+│   └── etl_hardware/
+│       ├── generate_pos_data.py
+│       ├── pipeline.py
+│       ├── load_dim_date.py
+│       ├── load_dim_employees.py
+│       └── load_dim_products.py
+├── warehouse/
+│   └── schema.sql
+├── extract.py
+├── load.py
+├── transform.py
+├── .gitignore
+├── requirements.txt
+└── README.md
 
 ## Author
 
-👩‍💻 **Maureen Kitang'a**  
+**Maureen Kitang'a**  
 Data Engineer | BI Developer  
 ---
