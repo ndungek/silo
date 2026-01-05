@@ -182,8 +182,3 @@ SILO/
 ├── requirements.txt
 └── README.md
 ```
-## Author
-
-**Maureen Kitang'a**  
-Data Engineer | BI Developer  
----
